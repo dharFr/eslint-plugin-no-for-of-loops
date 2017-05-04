@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-no-for-of-loops",
+  "description": "Prevents for..of loops usage",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/index.js",
+    "preversion": "npm test",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharFr/eslint-plugin-no-for-of-loops.git"
+  },
+  "author": "Olivier Audard <audard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dharFr/eslint-plugin-no-for-of-loops/issues"
+  },
+  "homepage": "https://github.com/dharFr/eslint-plugin-no-for-of-loops#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=2.0.0"
+  },
+  "version": "1.0.0",
+  "dependencies": {},
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "for",
+    "of",
+    "loops"
+  ]
+}
