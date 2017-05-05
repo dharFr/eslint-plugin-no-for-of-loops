@@ -1,4 +1,6 @@
 # eslint-plugin-no-for-of-loops
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dharFr/eslint-plugin-no-for-of-loops.svg)](https://greenkeeper.io/)
 An [eslint](http://eslint.org/) plugin to prevent `for (...of)` loops usage in your code base.
 
 [![Build Status](https://travis-ci.org/dharFr/eslint-plugin-no-for-of-loops.svg?branch=master)](https://travis-ci.org/dharFr/eslint-plugin-no-for-of-loops)
