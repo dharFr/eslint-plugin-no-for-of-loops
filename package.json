@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/dharFr/eslint-plugin-no-for-of-loops#readme",
   "devDependencies": {
-    "babel-eslint": "^8.0.0",
+    "babel-eslint": "^8.2.6",
     "eslint": "^4.17.0"
   },
   "peerDependencies": {
