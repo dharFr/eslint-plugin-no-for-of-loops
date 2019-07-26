@@ -8,7 +8,7 @@
   "scripts": {
     "test": "node tests/index.js",
     "preversion": "npm test",
-    "prepublish": "npm test"
+    "prepublishOnly": "npm test"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/dharFr/eslint-plugin-no-for-of-loops#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.2",
-    "eslint": "^5.0.1"
+    "eslint": "^6.1.0"
   },
   "peerDependencies": {
     "eslint": ">=2.0.0"

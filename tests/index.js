@@ -30,7 +30,7 @@ ruleTester.run('no-for-of-loops', rule, {
   invalid: [
     {
       code: 'for (i of [1, 2, 3]) { console.log(i) }',
-      parser: 'babel-eslint',
+      parser: require.resolve('babel-eslint'),
       errors: [ { message: 'for..of loops are not allowed' } ]
     }
   ]
