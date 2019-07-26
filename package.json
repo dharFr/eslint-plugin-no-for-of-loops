@@ -8,7 +8,7 @@
   "scripts": {
     "test": "node tests/index.js",
     "preversion": "npm test",
-    "prepublish": "npm test"
+    "prepublishOnly": "npm test"
   },
   "repository": {
     "type": "git",
